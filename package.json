@@ -1,0 +1,32 @@
+{
+  "name": "platzi_Curso_de_Backend_con_Node.js_API_REST_con_Express.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-debug": "^1.1.1",
+    "express-slash": "^2.0.1",
+    "faker": "^5.5.3",
+    "helmet": "^6.0.1",
+    "joi": "^17.7.0",
+    "morgan": "^1.10.0"
+  }
+}
